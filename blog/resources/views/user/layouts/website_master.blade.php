@@ -29,22 +29,22 @@
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
     			<div class="col-md-4 order-md-2 mb-2 mb-md-0 align-items-center text-center">
-		    		<a class="navbar-brand" href="index.html">Dentista<span>Dental Clinic</span></a>
+		    		<a class="navbar-brand" href="index.html">KACCA<span></span></a>
 	    		</div>
 	    		<div class="col-md-4 order-md-1 d-flex topper mb-md-0 mb-2 align-items-center text-md-right">
 	    			<div class="icon d-flex justify-content-center align-items-center order-md-last">
 	    				<span class="icon-map"></span>
 	    			</div>
 	    			<div class="pr-md-4 pl-md-0 pl-3 text">
-					    <p class="con"><span>Free Call</span> <span>+1 234 456 78910</span></p>
-					    <p class="con">198 West 21th Street, Suite 721 New York NY 10016</p>
+					    <p class="con"><span>Call Us</span> <span>0765549118 - 0781888077</span></p>
+					    <p class="con">4th floor,Rahman Tower,Shahr-e-Naw,Kabul,Afghanistan</p>
 				    </div>
 			    </div>
 			    <div class="col-md-4 order-md-3 d-flex topper mb-md-0 align-items-center">
 			    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
 			    	<div class="text pl-3 pl-md-3">
 					    <p class="hr"><span>Open Hours</span></p>
-					    <p class="time"><span>Mon - Sat:</span> <span>8:00am - 9:00pm</span> Sun: Closed</p>
+					    <p class="time"><span>Sat - Tue:</span> <span>8:00am - 4:00pm</span> Friday: Closed</p>
 				    </div>
 			    </div>
 		    </div>
@@ -63,7 +63,7 @@
 	        	<li class="nav-item"><a href="department.html" class="nav-link">Treatments</a></li>
 	        	<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
 	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
