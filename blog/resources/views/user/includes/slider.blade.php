@@ -1,42 +1,27 @@
-<div class="main-w3pvt">
-    <div class="container-fluid">
-        <div class="row">
-					<div class="col-lg-6 style-banner">
-						<div class="style-banner-inner">
-							<h3 class="font-weight-bold text-uppercase"><span class="font-weight-normal">Arizo</span> Zeeba</h3>
-							<p class="mt-3">Afghanistan Biggest Dry Fruit Exporter</p>
-							<a href="{{url('user/about_us')}}" class="btn button-style mt-sm-5 mt-4">Read More</a>
-						</div>
-					</div>
-					<div class="col-lg-6 img-banner-w3 text-center">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{URL::asset('images/1.jpg')}}" style="max-height:700px;" alt="Arizo Zeeba">
-                                </div>
-                                <div class="carousel-item">
-                                <img class="d-block w-100" src="{{URL::asset('images/2.jpg')}}" style="max-height:400px;" alt="Arizo Zeeba">
-                                </div>
-                                <div class="carousel-item">
-                                <img class="d-block w-100" src="{{URL::asset('images/3.jpg')}}" style="max-height:400px;" alt="Arizo Zeeba">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-					</div>
-				</div>
+<section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image:url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+          <div class="col-md-6 text ftco-animate">
+            <h1 class="mb-4">Helping Your <span>Stay Happy One</span></h1>
+            <h3 class="subheading">Everyday We Bring Hope and Smile to the Patient We Serve</h3>
+            <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">View our works</a></p>
+          </div>
+        </div>
+        </div>
+      </div>
 
-    </div>           
-</div>
+      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
+          <div class="col-md-6 text ftco-animate">
+            <h1 class="mb-4">Smile Makes <br>A Lasting Impression</h1>
+            <h3 class="subheading">Your Health is Our Top Priority with Comprehensive, Affordable medical.</h3>
+            <p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">View our works</a></p>
+          </div>
+        </div>
+        </div>
+      </div>
+ </section>
