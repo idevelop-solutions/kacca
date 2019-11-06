@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'publicController@index');
+
+
+
+
+// Authintication routes scaffolding
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
