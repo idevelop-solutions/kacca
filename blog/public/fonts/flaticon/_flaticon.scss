@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 18/09/2019 12:10
+    Creation date: 06/11/2019 10:50
     */
 
     @font-face {
@@ -37,20 +37,14 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-drilling:before { content: "\f100"; }
-.flaticon-tooth:before { content: "\f101"; }
-.flaticon-tooth-1:before { content: "\f102"; }
-.flaticon-dentist-chair:before { content: "\f103"; }
-.flaticon-tooth-with-braces:before { content: "\f104"; }
-.flaticon-decayed-tooth:before { content: "\f105"; }
-.flaticon-shiny-tooth:before { content: "\f106"; }
-.flaticon-dental-floss:before { content: "\f107"; }
+    .flaticon-quality-assurance:before { content: "\f100"; }
+.flaticon-buy:before { content: "\f101"; }
+.flaticon-discussion:before { content: "\f102"; }
+.flaticon-tax:before { content: "\f103"; }
+.flaticon-tax-1:before { content: "\f104"; }
     
-    $font-Flaticon-drilling: "\f100";
-    $font-Flaticon-tooth: "\f101";
-    $font-Flaticon-tooth-1: "\f102";
-    $font-Flaticon-dentist-chair: "\f103";
-    $font-Flaticon-tooth-with-braces: "\f104";
-    $font-Flaticon-decayed-tooth: "\f105";
-    $font-Flaticon-shiny-tooth: "\f106";
-    $font-Flaticon-dental-floss: "\f107";
+    $font-Flaticon-quality-assurance: "\f100";
+    $font-Flaticon-buy: "\f101";
+    $font-Flaticon-discussion: "\f102";
+    $font-Flaticon-tax: "\f103";
+    $font-Flaticon-tax-1: "\f104";
