@@ -16,13 +16,7 @@
 					<div class="col-md-7 wrap-about py-4 py-md-5 ftco-animate">
 	          <div class="heading-section mb-5">
 	          	<div class="pl-md-5 ml-md-5 pt-md-5">
-		          	<span class="subheading mb-2">Welcome to KACCA</span>
-		            <h2 class="mb-2" style="font-size: 32px;">Kabul Adept Chartered Cetertified Accountant Company</h2>
-	            </div>
-	          </div>
-	          <div class="pl-md-5 ml-md-5 mb-5">
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorum magni vel, debitis minus nam veniam dolores repellat atque tenetur. Sequi voluptatum ad eum veniam? Provident culpa totam doloribus magnam.</p>
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde earum pariatur temporibus iusto, debitis hic repellendus minus praesentium? Ab blanditiis maiores placeat ratione. Nam aliquam in blanditiis molestiae eius aut!</p>
+
 						</div>
 					</div>
 				</div>
