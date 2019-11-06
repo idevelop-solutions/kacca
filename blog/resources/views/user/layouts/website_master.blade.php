@@ -57,12 +57,73 @@
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="doctor.html" class="nav-link">Doctor</a></li>
-	        	<li class="nav-item"><a href="department.html" class="nav-link">Treatments</a></li>
-	        	<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	        	<li class="nav-item active"><a href="{{url('/')}}" class="nav-link pl-0">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item" href="{{url('/kacca-history')}}">History</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-mission-vision')}}">Mission & Vision</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-our-team')}}">Our Team</a>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Assurance Services
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="{{url('/kacca-audit-accounting')}}">Audit & Accouting</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-information-system-assurance')}}">Information system assurance</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-management-assurance')}}">Management Assurance</a>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Taxation Services
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="{{url('/kacca-tax-compilance')}}">Tax-Compilance</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-business-tax-service')}}">Business Tax Service</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-business-receipt-tax')}}">Business Receipt Tax</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-international-tax')}}">International Tax</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-transfer-pricing')}}">Transfer Pricing</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-indirect-tax')}}">Indirect Tax</a>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Advisory Services
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="{{url('/kacca-advisory-services')}}">Advisory Services</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-corporate-advisory')}}">Corporate Advisory</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-environment-management-advisory')}}">Environment Management Advisory</a>
+            </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Transaction Services
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="{{url('/kacca-transaction-support')}}">Transaction Support</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-transaction-tax')}}">Transaction Tax</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{url('/kacca-valuation-and-business-modeling')}}">Valuation & Business Modeling</a>
+            </div>
+            </li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
@@ -74,9 +135,6 @@
 
     @section('content')
     @show
-		
-
-		
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
