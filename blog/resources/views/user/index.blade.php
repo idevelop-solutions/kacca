@@ -149,7 +149,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-2.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Eng.Naser Hafiz Zamani</h3>
@@ -169,7 +169,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-3.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Mr.Ahmad Faisal Zamani</h3>
@@ -189,7 +189,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-4.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Mr.Aabdi Momand</h3>
