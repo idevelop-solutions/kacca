@@ -124,7 +124,7 @@
               <a class="dropdown-item" href="{{url('/kacca-valuation-and-business-modeling')}}">Valuation & Business Modeling</a>
             </div>
             </li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="{{url('/contact')}}" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -140,49 +140,41 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-5">
-              <h2 class="ftco-heading-2 logo">Dentista</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2 logo">KACCA</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore ex numquam harum provident! Maxime qui accusamus delectus laboriosam, voluptas libero excepturi iure quae, architecto dolor placeat optio saepe voluptatibus!</p>
             </div>
             <div class="ftco-footer-widget mb-5">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">4th floor,Rahman Tower,Shahr-e-Naw,Kabul,Afghanistan</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">0765549118 - 0781888077</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@kacca.af</span></a></li>
 	              </ul>
 	            </div>
-
-	            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-5 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="{{url('/')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="{{url('/kacca-history')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                <li><a href="{{url('/kacca-our-team')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Our Team</a></li>
+                <li><a href="{{url('/contact')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
               </ul>
             </div>
             <div class="ftco-footer-widget mb-5 ml-md-4">
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Neurolgy</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Dentist</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Ophthalmology</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Cardiology</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Surgery</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Assurance Services</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Taxation Services</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Advisory Services</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Transaction Services</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-md">
+          <div class="col-md d-none">
             <div class="ftco-footer-widget mb-5">
               <h2 class="ftco-heading-2">Recent Blog</h2>
               <div class="block-21 mb-4 d-flex">
@@ -212,16 +204,17 @@
           <div class="col-md">
           	<div class="ftco-footer-widget mb-5">
             	<h2 class="ftco-heading-2">Opening Hours</h2>
-            	<h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>We are open 24/7</h3>
+            	<h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Saturday-Tuesday (open) (8:00AM - 4:00PM)</h3>
+            	<h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Fridays (Closed)</h3>
+            	<h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Official Holiday: (Closed)</h3>
             </div>
             <div class="ftco-footer-widget mb-5">
-            	<h2 class="ftco-heading-2">Subscribe Us!</h2>
-              <form action="#" class="subscribe-form">
-                <div class="form-group">
-                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                  <input type="submit" value="Subscribe" class="form-control submit px-3">
-                </div>
-              </form>
+            	<h2 class="ftco-heading-2">Follow Us!</h2>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-youtube"></span></a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -229,8 +222,8 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+  Copyright &copy;2019- {{date('Y')}} All rights reserved | Powered By:<a href="https://idevelopgroup.com" target="_blank" title="Software & Technology Services company">iDevelop</a>
+ </p>
           </div>
         </div>
       </div>
