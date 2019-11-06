@@ -167,10 +167,10 @@
             <div class="ftco-footer-widget mb-5 ml-md-4">
               <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Assurance Services</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Taxation Services</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Advisory Services</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Transaction Services</a></li>
+                <li><a href="{{url('/kacca-audit-accounting')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Assurance Services</a></li>
+                <li><a href="{{url('/kacca-tax-compilance')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Taxation Services</a></li>
+                <li><a href="{{url('/kacca-advisory-services')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Advisory Services</a></li>
+                <li><a href="{{url('/kacca-transaction-support')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Transaction Services</a></li>
               </ul>
             </div>
           </div>
