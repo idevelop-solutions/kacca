@@ -49,4 +49,9 @@ class publicController extends Controller
 
         return view('user.pages.about.missionvision');
     }
+
+    public function ourTeam(){
+
+        return view('user.pages.about.ourteam');
+    }
 }
