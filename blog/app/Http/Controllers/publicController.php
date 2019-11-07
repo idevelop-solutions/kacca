@@ -38,4 +38,15 @@ class publicController extends Controller
             return redirect()->back();  
         }        
     }
+
+
+    public function history(){
+
+        return view('user.pages.about.history');
+    }
+
+    public function missionVision(){
+
+        return view('user.pages.about.missionvision');
+    }
 }
