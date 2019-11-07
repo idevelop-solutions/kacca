@@ -54,4 +54,80 @@ class publicController extends Controller
 
         return view('user.pages.about.ourteam');
     }
+
+    public function auditAccounting(){
+
+        return view('user.pages.about.auditAccounting');
+    }
+
+    public function informationSystemAssurance(){
+
+        return view('user.pages.about.informationSystemAssurance');
+    }
+
+    public function managementAssurance(){
+
+        return view('user.pages.about.managementAssurance');
+    }
+    public function taxCompilance(){
+
+        return view('user.pages.about.taxCompilance');
+    }
+
+    public function businessTaxService(){
+
+        return view('user.pages.about.businessTaxService');
+    }
+
+    public function businessReceiptTax(){
+
+        return view('user.pages.about.businessReceiptTax');
+    }
+
+    public function internationTax(){
+
+        return view('user.pages.about.internationTax');
+    }
+
+    public function transferPricing(){
+
+        return view('user.pages.about.transferPricing');
+    }
+
+    public function indirectTax(){
+
+        return view('user.pages.about.indirectTax');
+    }
+
+    public function advisoryServices(){
+
+        return view('user.pages.about.advisoryServices');
+    }
+
+    public function corporateAdvisory(){
+
+        return view('user.pages.about.corporateAdvisory');
+    }
+
+    public function environmentManagementAdvisory(){
+
+        return view('user.pages.about.environmentManagementAdvisory');
+    }
+
+    public function transactionSupport(){
+
+        return view('user.pages.about.transactionSupport');
+    }
+
+    public function transactionTax(){
+
+        return view('user.pages.about.transactionTax');
+    }
+
+    public function valuationBusinessModeling(){
+
+        return view('user.pages.about.valuationBusinessModeling');
+    }
+
+    
 }
