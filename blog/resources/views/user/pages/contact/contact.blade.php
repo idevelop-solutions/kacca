@@ -22,7 +22,8 @@
 			<div class="container">
 				<div class="row d-flex align-items-stretch no-gutters">
 					<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-						<form action="url('/sendEmail')" method="post">
+						<form action="{{url('/sendEmail')}}" method="post">
+              {{csrf_field()}}
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Name" name="name">
               </div>

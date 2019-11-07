@@ -23,7 +23,6 @@ class publicController extends Controller
             'message'=>'required'
         ]);
 
-
         $data = array();
         
         try {
@@ -39,29 +38,4 @@ class publicController extends Controller
             return redirect()->back();  
         }        
     }
-    // public function sendEmail(Request $request){
-        
-    //     $this->validate($request,[
-    //         'name'=>'required',
-    //         'from'=>'required|email',
-    //         'subject'=>'required',
-    //         'message'=>'required'
-    //     ]);
-
-
-    //     $data = array();
-        
-    //     try {
-    //         Mail::send('email.email',$data, function($message) use ($data) {
-    //             $message->to('info@arizozeeba.af', 'Arizo Zeeba')
-    //                     ->subject('From website contact page!');
-    //         });
-
-    //         Session::flash('success','Your message sent successfully');
-    //         return redirect()->back();
-    //     } catch (Exception $e) {
-    //         Session::flash('mailerror',$e->getMessage());
-    //         return redirect()->back();  
-    //     }        
-    // }
 }
