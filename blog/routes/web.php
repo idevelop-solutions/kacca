@@ -15,6 +15,8 @@ Route::get('/', 'publicController@index');
 
 Route::get('/contact', 'publicController@contact');
 
+Route::post('/sendEmail','publicController@sendEmail');
+
 Route::get('/kacca-valuation-and-business-modeling', 'publicController@valuationBusinessModeling');
 
 Route::get('/kacca-transaction-tax', 'publicController@transactionTax');
