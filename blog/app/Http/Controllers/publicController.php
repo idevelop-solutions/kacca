@@ -57,76 +57,76 @@ class publicController extends Controller
 
     public function auditAccounting(){
 
-        return view('user.pages.about.auditAccounting');
+        return view('user.pages.assurance.auditAccounting');
     }
 
     public function informationSystemAssurance(){
 
-        return view('user.pages.about.informationSystemAssurance');
+        return view('user.pages.assurance.informationSystemAssurance');
     }
 
     public function managementAssurance(){
 
-        return view('user.pages.about.managementAssurance');
+        return view('user.pages.assurance.managementAssurance');
     }
     public function taxCompilance(){
 
-        return view('user.pages.about.taxCompilance');
+        return view('user.pages.tax.taxCompilance');
     }
 
     public function businessTaxService(){
 
-        return view('user.pages.about.businessTaxService');
+        return view('user.pages.tax.businessTaxService');
     }
 
     public function businessReceiptTax(){
 
-        return view('user.pages.about.businessReceiptTax');
+        return view('user.pages.tax.businessReceiptTax');
     }
 
     public function internationalTax(){
 
-        return view('user.pages.about.internationalTax');
+        return view('user.pages.tax.internationalTax');
     }
 
     public function transferPricing(){
 
-        return view('user.pages.about.transferPricing');
+        return view('user.pages.tax.transferPricing');
     }
 
     public function indirectTax(){
 
-        return view('user.pages.about.indirectTax');
+        return view('user.pages.tax.indirectTax');
     }
 
     public function advisoryServices(){
 
-        return view('user.pages.about.advisoryServices');
+        return view('user.pages.advisory.advisoryServices');
     }
 
     public function corporateAdvisory(){
 
-        return view('user.pages.about.corporateAdvisory');
+        return view('user.pages.advisory.corporateAdvisory');
     }
 
     public function environmentManagementAdvisory(){
 
-        return view('user.pages.about.environmentManagementAdvisory');
+        return view('user.pages.advisory.environmentManagementAdvisory');
     }
 
     public function transactionSupport(){
 
-        return view('user.pages.about.transactionSupport');
+        return view('user.pages.transaction.transactionSupport');
     }
 
     public function transactionTax(){
 
-        return view('user.pages.about.transactionTax');
+        return view('user.pages.transaction.transactionTax');
     }
 
     public function valuationBusinessModeling(){
 
-        return view('user.pages.about.valuationBusinessModeling');
+        return view('user.pages.transaction.valuationBusinessModeling');
     }
 
     
