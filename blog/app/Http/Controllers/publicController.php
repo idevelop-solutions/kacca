@@ -84,9 +84,9 @@ class publicController extends Controller
         return view('user.pages.about.businessReceiptTax');
     }
 
-    public function internationTax(){
+    public function internationalTax(){
 
-        return view('user.pages.about.internationTax');
+        return view('user.pages.about.internationalTax');
     }
 
     public function transferPricing(){

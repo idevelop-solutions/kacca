@@ -33,7 +33,7 @@ Route::get('/kacca-indirect-tax', 'publicController@indirectTax');
 
 Route::get('/kacca-transfer-pricing', 'publicController@transferPricing');
 
-Route::get('/kacca-international-tax', 'publicController@internationTax');
+Route::get('/kacca-international-tax', 'publicController@internationalTax');
 
 Route::get('/kacca-business-receipt-tax', 'publicController@businessReceiptTax');
 
