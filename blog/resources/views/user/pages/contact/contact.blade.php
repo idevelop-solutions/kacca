@@ -4,120 +4,81 @@
  Contact Us
 @endsection
 @section('top')
-  <div class="main-banner-2" id="home">
-        <!-- header -->
-        @include('user.includes.navigation')
-        <!-- //header -->
-    </div>
-    <!-- page details -->
-  <div class="breadcrumb-w3ls py-1">
-    <div class="container">
-      <ol class="breadcrumb m-0">
-        <li class="breadcrumb-item">
-          <a href="{{url('/')}}">Home</a>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
-      </ol>
-    </div>
-  </div>
-  <!-- //page details -->
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-2 bread">Contact Us</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="{{url('/')}}">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+</section>
 @endsection
 
 @section('content')
-<!-- contact  -->
-  <section class="contact py-5">
-    <div class="container py-xl-5 py-lg-3">
-      <h3 class="title-w3 mb-5 font-weight-bold">Contact Us <span>Send Message</span></h3>
-      @if (session()->has('mailerror'))
-      <h3 class="title-w3 mb-5 font-weight-bold"><span>{{$session('mailerror')}}</span></h3>
-      @endif
-      @if (session()->has('success'))
-      <h3 class="title-w3 mb-5 font-weight-bold"><span>{{$session('success')}}</span></h3>
-      @endif
-      <div class="row">
-        <!-- contact form -->
-        <div class="col-lg-6 contact-us1-bottom w3layouts-w3ls">
-          <form action="{{url('/user/sendEmail')}}" method="post">
-            {{ csrf_field() }}
-            <div class="form-group">
-              <input type="text" class="form-control {{$errors->has('name')?'is-invalid':''}}" placeholder="Name" name="name" required="">
-                      @if($errors->has('name'))
-                           <span class="help-block">
-                              <strong>{{$errors->first('name')}}</strong>
-                           </span>
-                      @endif
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control {{$errors->has('from')?'is-invalid':''}}" placeholder="Email" name="from" required="">
-                      @if($errors->has('from'))
-                           <span class="help-block">
-                              <strong>{{$errors->first('from')}}</strong>
-                           </span>
-                      @endif
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control {{$errors->has('subject')?'is-invalid':''}}" placeholder="Subject" name="subject" required="">
-                      @if($errors->has('subject'))
-                           <span class="help-block">
-                              <strong>{{$errors->first('subject')}}</strong>
-                           </span>
-                      @endif
-            </div>
-            <div class="form-group">
-              <textarea class="form-control {{$errors->has('message')?'is-invalid':''}}" placeholder="Message" name="message" required=""></textarea>
 
-                      @if($errors->has('message'))
-                           <span class="help-block">
-                              <strong>{{$errors->first('message')}}</strong>
-                           </span>
-                      @endif
-            </div>
-            <button type="submit" class="btn">Submit</button>
-          </form>
-        </div>
-        <!-- //contact form -->
-        <!-- contact address -->
-        <div class="col-lg-6 home-radio-clock mt-lg-0 mt-5">
-          <h3 class="tittle text-dark mb-5 font-weight-bold">Get In Touch</h3>
-          <div class="row">
-            <div class="col-4">
-              <ul class="list-unstyled">
-                <li><i class="fa fa-envelope mr-2" aria-hidden="true"></i>Address</li>
-                <li class="my-5"><i class="fa fa-phone mr-2" aria-hidden="true"></i>Call Us</li>
-
-                <li class="my-5"><i class="fa fa-envelope mr-2" aria-hidden="true"></i>Email</li>
-                <li><i class="fa fa-clock-o mr-2" aria-hidden="true"></i>Branches:</li>
-              </ul>
-            </div>
-            <div class="col-8">
-              <div class="home-radio-clock-right">
-                <ul class="list-unstyled">
-                  <li>232,Kart-e-Seh road Aloding,
-                    <span>Kabul, Afghanistan</span></li>
-                  <li class="my-4">(020) 254433
-                    <span>(0093) 784689192</span>
-                  </li>
-                  <li class="my-4"><span>info@arizozeeba.af</span>
-                  </li>
-                  <li>Kabul Branch:<span>Mandavi,Kabul Afghanistan</span></li>
-                  <li>Ghazni Branch:<span>Mandavi,Ghazni Afghanistan</span></li>
-                </ul>
+		
+		<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
+			<div class="container">
+				<div class="row d-flex align-items-stretch no-gutters">
+					<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
+						<form action="#">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
               </div>
-            </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+					</div>
+					<div class="col-md-6 d-flex align-items-stretch">
+						<div id="map"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="ftco-section contact-section">
+      <div class="container">
+        <div class="row d-flex mb-5 contact-info">
+          <div class="col-md-12 mb-4">
+            <h2 class="h4">Contact Information</h2>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light d-flex align-self-stretch box p-4">
+	            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light d-flex align-self-stretch box p-4">
+	            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light d-flex align-self-stretch box p-4">
+	            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light d-flex align-self-stretch box p-4">
+	            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+	          </div>
           </div>
         </div>
-        <!-- //contact address -->
       </div>
-    </div>
-  </section>
-  <!-- map -->
-  <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26359195.17562375!2d-113.7156245614499!3d36.2473834534249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1471497559566"
-     style="border:0" allowfullscreen=""></iframe>
-  </div>
-  <!-- //map -->
-  <!-- //contact -->
-
+    </section>
 @endsection
 
 
