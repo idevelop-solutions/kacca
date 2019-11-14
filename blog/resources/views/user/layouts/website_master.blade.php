@@ -56,9 +56,9 @@
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav m-auto">
-	        	<li class="nav-item active"><a href="{{url('/')}}" class="nav-link pl-0">Home</a></li>
-            <li class="nav-item dropdown">
+	        <ul class="navbar-nav m-auto" id="menu">
+	        	<li class="nav-item active" id="home"><a href="{{url('/')}}" class="nav-link pl-0">Home</a></li>
+            <li class="nav-item dropdown" id="about">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About
               </a>
@@ -70,7 +70,7 @@
               <a class="dropdown-item" href="{{url('/kacca-our-team')}}">Our Team</a>
             </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" id="assurance">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Assurance Services
               </a>
@@ -82,7 +82,7 @@
               <a class="dropdown-item" href="{{url('/kacca-management-assurance')}}">Management Assurance</a>
             </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" id="tax">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Taxation Services
               </a>
@@ -100,7 +100,7 @@
               <a class="dropdown-item" href="{{url('/kacca-indirect-tax')}}">Indirect Tax</a>
             </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" id="advisor">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Advisory Services
               </a>
@@ -112,7 +112,7 @@
               <a class="dropdown-item" href="{{url('/kacca-environment-management-advisory')}}">Environment Management Advisory</a>
             </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" id="transaction">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Transaction Services
               </a>
@@ -124,7 +124,7 @@
               <a class="dropdown-item" href="{{url('/kacca-valuation-and-business-modeling')}}">Valuation & Business Modeling</a>
             </div>
             </li>
-	          <li class="nav-item"><a href="{{url('/contact')}}" class="nav-link">Contact</a></li>
+	          <li class="nav-item" id="contact"><a href="{{url('/contact')}}" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -252,6 +252,9 @@
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="{{URL::asset('js/google-map.js')}}"></script> -->
   <script src="{{URL::asset('js/main.js')}}"></script>
+
+  @section('script')
+  @show
     
   </body>
 </html>
