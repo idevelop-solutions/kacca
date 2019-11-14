@@ -59,7 +59,7 @@
         	<div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-quality-assurance"></span>
+            		<span class="flaticon-tax-1"></span>
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Taxation Service</h3>
@@ -70,7 +70,7 @@
           <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-buy"></span>
+            		<span class="flaticon-discussion"></span>
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Advisory Service</h3>
@@ -93,7 +93,7 @@
 					<div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block text-center">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-quality-assurance"></span>
+            		<span class="flaticon-buy"></span>
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Transaction Services</h3>
