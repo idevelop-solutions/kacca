@@ -80,6 +80,13 @@
       </div>
     </section>
 @endsection
+@section('script')
+<script type="text/javascript">
+	$('ul#menu li').removeClass('active');
+	$('ul#menu li#contact').addClass('active');
+</script>
+
+@endsection
 
 
 

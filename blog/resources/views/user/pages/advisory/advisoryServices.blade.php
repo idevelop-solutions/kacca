@@ -66,3 +66,10 @@ History
 			</div>
 		</section>
 @endsection
+@section('script')
+<script type="text/javascript">
+	$('ul#menu li').removeClass('active');
+	$('ul#menu li#advisor').addClass('active');
+</script>
+
+@endsection
