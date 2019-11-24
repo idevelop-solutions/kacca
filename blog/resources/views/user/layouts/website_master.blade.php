@@ -143,7 +143,7 @@
           <div class="col-md">
             <div class="ftco-footer-widget mb-5">
               <img src="{{URL::asset('images/logo.jpg')}}" class="img img-responsive" style="max-height:150px;"  />
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore ex numquam harum provident! Maxime qui accusamus delectus laboriosam, voluptas libero excepturi iure quae, architecto dolor placeat optio saepe voluptatibus!</p>
+              <p>Kabul Adept Chartered Certified Accountants in its commitment to observe professional standards of excellence firmly believes in KABUL ADEPT’s culture, values and conviction. The culture being to be creative, resourceful and decisive, driven by KABUL ADEPT’s belief in the dictates of professional independence, integrity, respect and our passion for excellence.</p>
             </div>
             <div class="ftco-footer-widget mb-5">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>

@@ -21,8 +21,8 @@
 	            </div>
 	          </div>
 	          <div class="pl-md-5 ml-md-5 mb-5">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis facilis doloremque deleniti et natus commodi soluta odio. Optio repellat dolore minus officiis saepe velit. Reiciendis, consectetur suscipit! Perspiciatis, incidunt.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia dolor vitae. Sapiente ipsam alias quis quia quo officia, porro commodi praesentium vel, minus at atque laboriosam illo? Inventore, earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis, sit magni optio, velit illum nisi ea sapiente similique nam laborum praesentium. Odit ea explicabo nulla porro quod eos hic. </p>
+                <p>Kabul Adept has its office in Kabul Afghanistan, established in 2019 ,Kabul Adept has been registered (License No. 61426  with Ministry of Commerce (MoC). Clients are served through specialized practice segments constituting multi-disciplinary teams under designated engagement Partner(s) supported by Independent and Quality Assurance Partner(s).</p>
+                <p>Its current strength of 13 plus professionals are able to synergize its best potential through a pool of expertise comprising Chartered Certified Accountants, Tax and Corporate Law Specialists, Business Advisory Specialists, Certified Information System Auditors (CISAs), Transaction Advisory Specialists, Business Risks Specialists, ACCAs, Cost and Management Accountants, MBAs, BBAs and professionals from other disciplines.</p>
 						</div>
 					</div>
 	       
@@ -63,7 +63,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Taxation Service</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, accusantium nemo. Quidem ducimus necessitatibus corrupti. Consectetur debitis sed accusantium reprehenderit quos.</p>
+                <p>A successful tax function delivers a strong reporting       foundation and sustainable planning to help the business achieve its growth potentialText.</p>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Advisory Service</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta beatae eaque quam nulla officiis ut dolorem veniam culpa</p>
+                <p>Advisory Services platform includes services, such as, Risk advisory, Information security risk and effectiveness, internal audit, Enterprise risk management, Performance improvement, corporate compliance and Corporate Social Responsibility (CSR) advisory.</p>
               </div>
             </div>      
           </div>
@@ -85,7 +85,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Assurance Service</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur reprehenderit molestias, tenetur id nam ducimus.</p>
+                <p>The success of business is profoundly reliant on credible financial information which promotes confidence and mitigates an array of uncertainties</p>
               </div>
             </div>      
           </div>
@@ -97,7 +97,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Transaction Services</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus enim rerum porro molestias quisquam odio cumque aliquid magni dolorum voluptatibus.</p>
+                <p>Kabul Adept’s Transaction Advisory Services (TAS) team provides integrated, objective advisory services to help you evaluate opportunities make transactions more efficient and achieve your strategic goals.</p>
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@
     		<div class="row">
     			<div class="col-md-6">
     				<h3 class="mb-4">Don't vary we are here to take care for your problems</h3>
-    				<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+    				<p>Within the overall audit approach, the Kabul Adept (KACCA)  Audit Methodology provides a framework that allows a consistent thought process to be applied to all audits.</p>
     			</div>
     		</div>
     	</div>
@@ -132,10 +132,10 @@
 								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
-								<h3>Mr.Mohd Zafar Shafaq</h3>
-								<span class="position mb-2">Founder + CEO</span>
+								<h3>Akbar Sulaimany (FIA, BBA)</h3>
+								<span class="position mb-2">Advisor</span>
 								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<p>Partner Advisory Services Experience: E&Y, KPMG</p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-facebook"></span></a></li>
@@ -152,10 +152,10 @@
 								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
-								<h3>Eng.Naser Hafiz Zamani</h3>
-								<span class="position mb-2">Software Developer</span>
+								<h3>Barakatullah (ACCA, AFD)</h3>
+								<span class="position mb-2">Quality Controller + Audit & Advisory</span>
 								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<p>Experience: Crowe Horwath</p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-facebook"></span></a></li>
@@ -172,10 +172,10 @@
 								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
-								<h3>Mr.Ahmad Faisal Zamani</h3>
-								<span class="position mb-2">Graphic Designer</span>
+								<h3>Muhammadullah (ACCA, FIA) </h3>
+								<span class="position mb-2">Audit and Assurance </span>
 								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<p>Experience: E&Y, BDO, Crowe Horwath,Credence and Fahad & co</p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-facebook"></span></a></li>
@@ -192,10 +192,10 @@
 								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
-								<h3>Mr.Aabdi Momand</h3>
-								<span class="position mb-2">Human resource Specialist</span>
+								<h3>Muhammad Ismail (MBA, CPA finalist) </h3>
+								<span class="position mb-2">Audit Supervisor</span>
 								<div class="faded">
-									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<p>Experience: BDO audit firm</p>
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-twitter"></span></a></li>
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="icon-facebook"></span></a></li>
@@ -397,7 +397,7 @@
           <div class="col-md-8 text-center heading-section ftco-animate">
           	<span class="subheading">News & Updates</span>
             <h2 class="mb-4">Events + News + Updates</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+            <p></p>
           </div>
         </div>
 				<div class="row">
