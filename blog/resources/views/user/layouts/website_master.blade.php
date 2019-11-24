@@ -29,10 +29,10 @@
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
     			<div class="col-md-4 order-md-2 mb-2 mb-md-0 align-items-center text-center">
-		    		<!-- <span class="navbar-brand" href="index.html">KACCA<span></span></a> -->
+		    
             <a class="navbar-brand" href="{{url('/')}}">
-            <img src="{{URL::asset('images/2.jpg')}}" class="img img-responsive" style="max-height:150px;"  /><span></span></a>
-	    		</div>
+            <img src="{{URL::asset('images/logo.jpg')}}" class="img img-responsive" style="max-height:150px;"  /><span></span></a>
+          </div>
 	    		<div class="col-md-4 order-md-1 d-flex topper mb-md-0 mb-2 align-items-center text-md-right">
 	    			<div class="icon d-flex justify-content-center align-items-center order-md-last">
 	    				<span class="icon-map"></span>
@@ -142,8 +142,7 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-5">
-              <img src="{{URL::asset('images/2.jpg')}}" class="img img-responsive" style="max-height:150px;"  />
-              <h2 class="ftco-heading-2 logo">KACCA</h2>
+              <img src="{{URL::asset('images/logo.jpg')}}" class="img img-responsive" style="max-height:150px;"  />
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore ex numquam harum provident! Maxime qui accusamus delectus laboriosam, voluptas libero excepturi iure quae, architecto dolor placeat optio saepe voluptatibus!</p>
             </div>
             <div class="ftco-footer-widget mb-5">
@@ -224,7 +223,6 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
   Copyright &copy;2019- {{date('Y')}} All rights reserved | Powered By:<a href="https://idevelopgroup.com" target="_blank" title="Software & Technology Services company">iDevelop</a>
  </p>
           </div>
