@@ -30,7 +30,8 @@
     		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
     			<div class="col-md-4 order-md-2 mb-2 mb-md-0 align-items-center text-center">
 		    		<!-- <span class="navbar-brand" href="index.html">KACCA<span></span></a> -->
-            <a class="navbar-brand" href="{{url('/')}}"><img src="{{URL::asset('images/logo.png')}}" /><span></span></a>
+            <a class="navbar-brand" href="{{url('/')}}">
+            <img src="{{URL::asset('images/2.jpg')}}" class="img img-responsive" style="max-height:150px;"  /><span></span></a>
 	    		</div>
 	    		<div class="col-md-4 order-md-1 d-flex topper mb-md-0 mb-2 align-items-center text-md-right">
 	    			<div class="icon d-flex justify-content-center align-items-center order-md-last">
@@ -141,7 +142,7 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-5">
-              <img src="{{URL::asset('images/logo.png')}}" />
+              <img src="{{URL::asset('images/2.jpg')}}" class="img img-responsive" style="max-height:150px;"  />
               <h2 class="ftco-heading-2 logo">KACCA</h2>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel inventore ex numquam harum provident! Maxime qui accusamus delectus laboriosam, voluptas libero excepturi iure quae, architecto dolor placeat optio saepe voluptatibus!</p>
             </div>
