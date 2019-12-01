@@ -17,7 +17,7 @@
 	          <div class="heading-section mb-5">
 	          	<div class="pl-md-5 ml-md-5 pt-md-5">
 		          	<span class="subheading mb-2">Welcome to KACCA</span>
-		            <h2 class="mb-2" style="font-size: 32px;">Kabul Adept Chartered Certified Acountant Company</h2>
+		            <h2 class="mb-2" style="font-size: 32px;">Kabul Adept Chartered Certified Accountant Company</h2>
 	            </div>
 	          </div>
 	          <div class="pl-md-5 ml-md-5 mb-5">
@@ -25,7 +25,6 @@
                 <p>Its current strength of 13 plus professionals are able to synergize its best potential through a pool of expertise comprising Chartered Certified Accountants, Tax and Corporate Law Specialists, Business Advisory Specialists, Certified Information System Auditors (CISAs), Transaction Advisory Specialists, Business Risks Specialists, ACCAs, Cost and Management Accountants, MBAs, BBAs and professionals from other disciplines.</p>
 						</div>
 					</div>
-	       
 				</div>
 			</div>
 		</section>
