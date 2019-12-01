@@ -128,11 +128,12 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doc-1.png);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Akbar Sulaimany (FIA, BBA)</h3>
-								<span class="position mb-2">Advisor</span>
+								<span class="position mb-2">Engagement Partner<br>Head of advisory</span>
+								
 								<div class="faded">
 									<p>Partner Advisory Services Experience: E&Y, KPMG</p>
 									<ul class="ftco-social text-center">
@@ -148,7 +149,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doc-1.png);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Barakatullah (ACCA, AFD)</h3>
@@ -168,11 +169,11 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doc-1.png);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Muhammadullah (ACCA, FIA) </h3>
-								<span class="position mb-2">Audit and Assurance </span>
+								<span class="position mb-2">Office Managing partner </span>
 								<div class="faded">
 									<p>Experience: E&Y, BDO, Crowe Horwath,Credence and Fahad & co</p>
 									<ul class="ftco-social text-center">
@@ -188,11 +189,11 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/doc-1.png);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Muhammad Ismail (MBA, CPA finalist) </h3>
-								<span class="position mb-2">Audit Supervisor</span>
+								<span class="position mb-2">Audit Manager</span>
 								<div class="faded">
 									<p>Experience: BDO audit firm</p>
 									<ul class="ftco-social text-center">
